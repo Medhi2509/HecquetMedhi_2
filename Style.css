@@ -1,0 +1,248 @@
+/*General*/
+ h4
+ {
+    margin-left: 20px
+
+ }
+ 
+ img
+ {
+     max-width: 150px;
+     min-height: auto;
+     border-radius: 10px;
+}
+
+ .grid div
+ {
+     background-color: #F2F2F2;
+     
+ }
+ 
+ .grid
+ {
+     display: grid;
+     grid-template-columns: 4fr 2fr;
+     grid-column-gap: 20px;
+ 
+ }
+ 
+ .child
+ {
+     grid-column-start: 1;
+     grid-column-end:2;
+     grid-row-start: 2
+ 
+ }
+
+ul
+{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+li 
+{
+    margin-bottom:10px;
+}
+
+
+
+
+/*Header/recherche */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+#logo img 
+{
+    width: 90px;
+    height: 92px;
+    margin-left: 20px;
+
+}
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li 
+{
+    margin-right: 15px;
+}
+
+nav a 
+{
+    font-size: 1.3em;
+    color: black;
+}
+
+nav a:hover
+{
+    color: #0065FC ;
+    border-bottom: 3px solid #0065FC;
+}
+
+#tete
+{
+    margin: auto 0px 5px auto;
+}
+#texte
+{
+    text-align: left;
+    margin-left: 12px;
+    font-size: 1.3em;
+    font-style: bold;
+    
+}
+
+#texte1
+{
+    font-size: 0.80em;
+    text-shadow: 0;
+}
+
+.bouton
+{
+    font-family: monospace;
+    font-size: 1.3em;
+    color: rgb 255,255,255;
+}
+
+/*hébergements*/
+
+#tout
+{
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.trois 
+
+{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+     
+} 
+
+
+.generali
+{
+    display: flex;
+    padding: 5px;
+}
+.forme
+{
+    background-color: rgb(255,  255, 255);
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid rgb(255,  255, 255);
+    width: 150px;
+    border-radius: 10px;
+}
+
+.description
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255,  255, 255);
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px;
+}
+
+
+/*Les plus populaire*/
+
+#tout1
+{
+    Border-radius: 30px;
+}
+
+.generalp
+{
+    padding: 5px;
+
+}
+
+
+/*Activités*/
+
+#Tout2
+{
+    
+    padding: 60px auto; 
+    border-radius: 30px;
+}
+
+
+#activite
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.generala
+{
+    /*display: flex;*/
+    padding: 5px;
+}
+
+.forme1
+{
+    background-color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 150px;
+}
+
+.description1
+{
+    background-color: rgb(252, 252, 252);
+    border-color: rgb(252, 252, 252);
+    padding: 5px;
+    /*margin-top: 10px;*/
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 10px;
+}
+
+
+/*Footer*/
+.Propos
+{
+    flex: 1;
+    padding-left: 10px;
+}
+
+#Footer
+{
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+#footer div 
+{
+    width: 100%;
+    padding: 5px;
+    
+}
+
+
