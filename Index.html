@@ -2,6 +2,7 @@
 <html>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <head>
         <title>Reservia</title>
@@ -15,9 +16,13 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="Hébergements à Marseille"></a>Hebergement</li>
-                    <li><a href="Activités à Marseille "></a>Activité</li>
-                    <li><a href="#"></a>S'inscrire</li>
+                    <div id="couleur">
+                    <li><a href="#Hébergement à Marseille"></a>Hébergements</li>
+                    </div>
+                    <li><a href="#Activités à Marseille "></a>Activités</li>
+                    <div id="couleur1">
+                        <li><a href="#"></a>S'inscrire</li>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -29,32 +34,74 @@
                 En plein centre ville ou en plein nature
             </P>
         </div>
-        <div>
-            <form>
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="text" id="Barre" placeholder="Marseille,France">
-                <input class="Bouton1" type="submit" value="Rechercher" class="button3">
-            </form>
+
+
+        <div class="barre">
+        <form>
+            <span class="icon1">
+                <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+            </span>
+            <input type="text" name="localisation" id="city" placeholder="Marseille,France">
+            <button class="bouton1">
+                <b class="brecherche">Rechercher</b>
+            </button>
+        </form>
         </div>
-        <Div class="bouton">
+
+
+        <Div class="filtre">
             <p>
                 Filtre
             </p>
-            <button>Economique</button>
-            <button>Familial</button>
-            <button>Romantique</button>
-            <button>Animaux autorisés</button>
+            <div class="bouton">
+                <div class="icon">
+                    <i class="fas fa-money-bill-wave-alt"></i>
+                </div>
+                <div class="textebouton">
+                   <b>Economique</b>
+                </div>
+            </div>
+
+            <div class="bouton">
+                <div class="icon">
+                    <i class="fas fa-male"></i>
+                </div>
+                <div class="textebouton">
+                   <b>Familial</b>
+                </div>
+            </div>
+
+            <div class="bouton">
+                <div class="icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="textebouton">
+                   <b>Romantique</b>
+                </div>
+            </div>
+
+            <div class="bouton">
+                <div class="icon">
+                    <i class="fas fa-dog"></i>
+                </div>
+                <div class="textebouton">
+                   <b>Animaux autorisés</b>
+                </div>
+            
+            </div>
         </Div>
-        <p>
-            Plus de 500 logements sont disponibles dans cette villes
-        </p>
+            <div class="info">
+                <i class="fas fa-info"></i>
+                <p class="texte">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        
 
 <!--Hébergement-->
 
 <div class="grid">
     <div id="tout">
         <div>
-            <h4>
+            <h4 id="Hébergement à Marseille">
                 Hébergement à Marseille
             </h4>
         </div>
@@ -129,7 +176,7 @@
                 <div class="image">
                     <figure class="forme">
                         <img src="Hébergements/Hotel Aéna.jpg" alt="Hôtel chez amina" />
-                    <figcaption class="description">
+                    <figcaption class="description1">
                         <h6>
                             Hôtel chez amina
                         </h6>
@@ -147,16 +194,28 @@
         Les plus populaire 
     </h4>
     <div id="trois1">
+
+
+
+        <div class="popcard">
+            <img src="Hébergements/Hotel le soleil du matin.jpg" alt="Hôtel le soleil du matin" />
+            
+            <div class="popdesc">
+               <p> Hotel le soleil du matin </p>
+            </div>
+        </div>
+
+
+
+<!---->
     <div class="generalp">
         <div class="imagep">
-            <figure>
+            
                 <img src="Hébergements/Hotel le soleil du matin.jpg" alt="Hôtel le soleil du matin" />
-            <figcaption>
+            
                 <p class="plpp">
                     Hôtel le soleil du matin
                 </p>
-            </figcaption>
-            </figure>
         </div>
     </div>
 
@@ -197,7 +256,7 @@
 
 <div class="Child">
     <div id="tout2">
-    <h4>
+    <h4 id="Activités à Marseille">
         Activités à Marseille
     </h4>
     <div id="activite">
