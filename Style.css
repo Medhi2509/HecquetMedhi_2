@@ -12,14 +12,18 @@
 *
 {
     font-family: Raleway;
-    
-
 }
 
-body:not(footer)
+#all
 {
-    background-color: red;
     padding: 20px;
+}
+
+body
+{
+   overflow-x: hidden;
+
+    margin: 0px;
 }
  h4
  {
@@ -34,9 +38,10 @@ body:not(footer)
      /*border-radius: 0px 10px 10px 0px;*/
 }
 
- .grid div
+ .grid, #tout
  {
      background-color: #F2F2F2;
+
      
  }
  
@@ -80,6 +85,9 @@ li a
 {
     text-decoration: none;
 }
+
+
+
 /*Header/recherche */
 
 header
@@ -222,6 +230,7 @@ button {
     padding: 5px;
     max-height: 100px;
     max-width: 100px;
+    margin: 2px;
 }
 
 .textebouton
@@ -261,6 +270,7 @@ button {
     padding: 5px;
     margin-right: 10px;
     margin-top: 20px;
+    
 }
 .trois 
 
@@ -310,12 +320,12 @@ button {
     color: #0065fc;
     background-color: rgb(255, 255, 255);
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     align-items: center;
 }
 .icon3
 {
-    color: hotpink;
+    color:#DEEBFF;
 }
 
 /*Les plus populaire*/
@@ -383,7 +393,7 @@ button {
 
 .description1
 {
-    background-color: rgb(252, 252, 252);
+    background-color: #F2F2F2;
     border-color: rgb(252, 252, 252);
     padding: 5px;
     /*margin-top: 10px;*/
@@ -399,14 +409,15 @@ footer
 {
     background-color: #F2F2F2;
     width: 100%;
-    padding: 15px;
+    padding: 15px; 
     display: flex;
-    
+    margin: 0px;
+    position:absolute;
     
 }
 .Propos
 {
-    /*flex: 1;*/
+    flex: 1;
     width: 100%;
 }
 
