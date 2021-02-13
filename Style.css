@@ -2,8 +2,8 @@
 {
     font-family: "Raleway";
     src: url("Fonts/Raleway-Regular.ttf"),
-    url("Raleway-Regular.ttf");
-   }
+        url("Raleway-Regular.ttf");
+}
 
 
 
@@ -21,21 +21,21 @@
 
 body
 {
-   overflow-x: hidden;
+    overflow-x: hidden;
 
     margin: 0px;
 }
- h4
- {
+h4
+{
     margin-left: 20px
 
- }
- 
- img
- {
-     max-width: 150px;
-     min-height: auto;
-     
+}
+
+img
+{
+    max-width: 150px;
+    min-height: auto;
+
 }
 
 ul
@@ -47,7 +47,7 @@ ul
 li 
 {
     margin-bottom: 10px;
-    
+
 }
 
 
@@ -75,9 +75,8 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items:  center
-        ;
-   
+    align-items:  center;
+
 }
 
 #logo
@@ -124,7 +123,7 @@ nav a:hover
     text-align: left;
     font-size: 1.3em;
     font-style: bold;
-    
+
 }
 
 #texte1
@@ -182,9 +181,9 @@ button {
 
 .filtre 
 {
-   align-items: center;
-   display: flex;
-    
+    align-items: center;
+    display: flex;
+
 }
 #paragraphe
 
@@ -222,11 +221,11 @@ button {
 {
     padding: 5px;
     font-family: Raleway;
-    
+
 }   
 .bouton :hover
 {
-    
+
     color: #0065FC;
 }
 
@@ -250,14 +249,14 @@ a
 }
 
 .fa-info {
-  text-align: center;
-  color: #0065fc;
-  border-radius: 100%;
-  height: 33px;
-  width: 33px;
-  border: solid 1px #d9d9d9;
-  padding: 7px;
-  box-sizing: border-box;
+    text-align: center;
+    color: #0065fc;
+    border-radius: 100%;
+    height: 33px;
+    width: 33px;
+    border: solid 1px #d9d9d9;
+    padding: 7px;
+    box-sizing: border-box;
 }
 
 /*hébergements*/
@@ -268,14 +267,14 @@ a
     padding: 5px;
     margin-right: 10px;
     background-color: #F2F2F2;
-    max-width: 100;
+    width: 70%;
 }
 .trois 
 
 {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-     
+
 } 
 
 
@@ -334,27 +333,28 @@ a
 /*Les plus populaire*/
 
 #tout1
-    {
-        Border-radius: 30px;
-        background-color:  #F2F2F2;
-        max-width: 100%
-    }
+{
+    Border-radius: 30px;
+    background-color:  #F2F2F2;
+    width: 30%;
+}
 
 .popcard
 {
-  width : 300px;
-  height : 100px; 
-  background-color: #f2f2f2;
-  border: solid 1px white;
-  border-radius: 5px;
-  display: flex;
+    
+    height : 100px; 
+    background-color: #f2f2f2;
+    border: solid 2px white;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 30px;
 }
 
 #text10
 {
-   
-  margin: 5px;
-  height: 100%;
+
+    height: 100%;
+    background-color: white;
 }
 
 .yess
@@ -365,7 +365,7 @@ a
 
 #Tout2
 {
-    
+
     padding: 60px auto; 
     border-radius: 30px;
 }
@@ -373,8 +373,8 @@ a
 
 #activite
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -405,7 +405,7 @@ a
 
 .image1, 
 {
-  height: 300px;
+    height: 300px;
 }
 
 /*Footer*/
@@ -419,7 +419,7 @@ footer
     display: flex;
     margin: 0px;
     position:absolute;
-    
+
 }
 .Propos
 {
@@ -434,35 +434,35 @@ footer
 
 
 <div class="house">
-  <img src="https://www.avogel.fr/blog/wp-content/uploads/2014/11/le-jus-de-pomme-de-terre-l-allie-de-votre-estomac-1-1580x770.jpg" height="100px" alt="">
-  <div id="text">
-    <b>
-    Hotel des pommes de terres
-   </b>
-   <p>Nuit à partir de 125£</p>
-   <div id="star">*****</div>
-  <div/>
+<img src="https://www.avogel.fr/blog/wp-content/uploads/2014/11/le-jus-de-pomme-de-terre-l-allie-de-votre-estomac-1-1580x770.jpg" height="100px" alt="">
+<div id="text">
+<b>
+Hotel des pommes de terres
+</b>
+<p>Nuit à partir de 125£</p>
+<div id="star">*****</div>
+<div/>
 </div>
 .house{
-  width : 500px;
-  height : 100px; 
-  background-color: #f2f2f2;
-  border: solid 1px black;
-  border-radius: 5px;
-  display: flex;
+    width : 500px;
+    height : 100px; 
+    background-color: #f2f2f2;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
 }
 
 #text{
-  margin: 5px;
-  height: 100%;
+    margin: 5px;
+    height: 100%;
 }
 
 img{
-  border-radius: 5px 0 0 5px; 
+    border-radius: 5px 0 0 5px; 
 }
 
 p{
- margin: 0;
+    margin: 0;
 }
 
 
