@@ -38,26 +38,6 @@ body
      
 }
 
-
- 
- .grid
- {
-     display: grid;
-     grid-template-columns: 4fr 2fr;
-     grid-column-gap: 20px;
-     max-width: 100%;
-     
- 
- }
- 
- .child
- {
-     grid-column-start: 1;
-     grid-column-end:2;
-     grid-row-start: 2
- 
- }
-
 ul
 {
     list-style: none;
@@ -82,7 +62,12 @@ li a
     text-decoration: none;
 }
 
-
+.container
+{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
 
 /*Header/recherche */
 
@@ -216,6 +201,7 @@ button {
     max-width: 300px;
     margin: 10px;
     align-items: baseline;
+    text-decoration: none;
 }
 
 .icon 
@@ -298,6 +284,8 @@ a
     display: flex;
     padding: 5px;
 }
+
+
 .forme
 {
     background-color: rgb(255, 255, 255);
