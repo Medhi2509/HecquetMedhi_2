@@ -332,6 +332,18 @@ a
 
 /*Les plus populaire*/
 
+
+.charte
+{
+    align-items: baseline;
+    display: inline-flex
+}
+.fa-chart-line
+{
+    float: right;
+    padding-left: 150px;
+}
+
 #tout1
 {
     Border-radius: 30px;
@@ -339,27 +351,51 @@ a
     width: 30%;
 }
 
+#allcarte
+{
+    width: 100%;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row-gap: 33.3%;
+    
+}
+.tcarte
+{
+    max-height: 150px;
+}
 .popcard
 {
-    
+
     height : 100px; 
     background-color: #f2f2f2;
-    border: solid 2px white;
-    border-radius: 5px;
+    border: solid 5px white;
+    border-radius: 10px;
     display: flex;
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#text10
+.text10
 {
 
     height: 100%;
+    width: 100%;
     background-color: white;
+    padding-left: 10px;
 }
 
-.yess
+.imagelpp
 {
-    border-radius: 5px 0 0 5px; 
+    border-radius: 10px 0 0 10px; 
+}
+
+.imagelpp img
+{
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: 100%;
+
 }
 /*Activités*/
 
@@ -380,7 +416,7 @@ a
 
 .generala
 {
-    /*display: flex;*/
+    
     padding: 5px;
 }
 
@@ -398,9 +434,9 @@ a
     background-color: #F2F2F2;
     border-color: rgb(252, 252, 252);
     padding: 5px;
-    /*margin-top: 10px;*/
+    
     border: 1px solid rgb(252, 252, 252);
-    /*border-radius: 10px;*/
+    /
 }
 
 .image1, 
@@ -433,37 +469,6 @@ footer
 
 
 
-<div class="house">
-<img src="https://www.avogel.fr/blog/wp-content/uploads/2014/11/le-jus-de-pomme-de-terre-l-allie-de-votre-estomac-1-1580x770.jpg" height="100px" alt="">
-<div id="text">
-<b>
-Hotel des pommes de terres
-</b>
-<p>Nuit à partir de 125£</p>
-<div id="star">*****</div>
-<div/>
-</div>
-.house{
-    width : 500px;
-    height : 100px; 
-    background-color: #f2f2f2;
-    border: solid 1px black;
-    border-radius: 5px;
-    display: flex;
-}
-
-#text{
-    margin: 5px;
-    height: 100%;
-}
-
-img{
-    border-radius: 5px 0 0 5px; 
-}
-
-p{
-    margin: 0;
-}
 
 
 
