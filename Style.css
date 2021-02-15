@@ -330,6 +330,13 @@ a
     color:#DEEBFF;
 }
 
+#afficher
+{
+    font-family: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
 /*Les plus populaire*/
 
 
@@ -367,13 +374,14 @@ a
 .popcard
 {
 
-    height : 100px; 
+    height : 120px; 
+    width: 310px;
     background-color: #f2f2f2;
     border: solid 5px white;
     border-radius: 10px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 40px;
+    margin-right: 25px;
 }
 
 .text10
@@ -424,19 +432,23 @@ a
 {
     background-color: rgb(255, 255, 255);
     border-color: #ffffff;
-    /*border-radius: 10px;*/
     border: 1px solid rgb(255, 255, 255);
     width: 150px;
+}
+.one
+{
+   border-top-left-radius: 10PX;
+   border-top-right-radius: 10px;
 }
 
 .description1
 {
-    background-color: #F2F2F2;
-    border-color: rgb(252, 252, 252);
+    background-color: white;
+    box-shadow: 10px 5px 5px #F2F2F2;
     padding: 5px;
-    
-    border: 1px solid rgb(252, 252, 252);
-    /
+    border: 1px solid WHITE;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .image1, 
