@@ -354,6 +354,7 @@ a
     Border-radius: 30px;
     background-color:  #F2F2F2;
     width: 30%;
+    margin-left: 30px;
 }
 
 #allcarte
@@ -363,7 +364,7 @@ a
     grid-row-end: 3;
     grid-row-gap: 5px;
     margin: 5px;
-    
+    height: 100%;
 }
 .tcarte
 {
@@ -419,7 +420,17 @@ a
     grid-template-columns: repeat(4, 1fr);
 
 }
+.solo
+{
+    height: 100%;
+}
 
+.duo
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
 .generala
 {
     
