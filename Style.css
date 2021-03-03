@@ -442,7 +442,6 @@ a
     background-color: rgb(255, 255, 255);
     border-color: #ffffff;
     border: 1px solid rgb(255, 255, 255);
-    width: 150px;
     box-shadow:  10px 5px 5px #F2F2F2;
 }
 .one
@@ -468,7 +467,7 @@ a
 
 .forme1 img 
 {
-    width: 150px;
+    width: 100%;
     height: 150px;
     object-fit: cover;
 }
