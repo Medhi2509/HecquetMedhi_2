@@ -34,6 +34,10 @@ h4
 
 }
 
+h2
+{
+    padding-left: 10px;
+}
 
 ul
 {
@@ -51,7 +55,9 @@ li
 li :hover
 {
     border-top: solid 1px #0065FC;
+    padding-top: 25px;
     color: #0065FC;
+
 }
 
 li a 
@@ -263,13 +269,14 @@ a
 }
 
 /*hébergements*/
+
 #titrehebergement
 {
     width: 70%;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 900px;
+    height: 800px;
 }
 #hebergements {
   
@@ -280,11 +287,24 @@ a
 
 #hebergements figure
 {
-    border: 2px solid #F2F2F2;
+    border: 5px solid white;
     margin: 5px;
     height: 300px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+}
+.cartehebergement
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #F2F2F2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cartehebergement:hover
+{
+    transform: scale(1.01);
 }
 figure img
 {
@@ -326,8 +346,9 @@ figcaption p
 #afficher
 {
     font-family: bold;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 20px;
+    margin-top: 25px;
 }
 
 
