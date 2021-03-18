@@ -519,7 +519,10 @@ footer
     flex: 1;
     width: 100%;
 }
-
+#bouttonloupe
+{
+    display: none;
+}
 @media (max-width: 768px) { 
 
 
@@ -567,10 +570,17 @@ footer
 
     display: unset;
 
-
    }
 
-
+   #bouttonrecherche
+   {
+       display: none;
+   }
+   #bouttonloupe
+   {
+       display: initial;
+       
+   }
 }
 
 
