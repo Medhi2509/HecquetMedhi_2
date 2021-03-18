@@ -522,9 +522,17 @@ footer
 
 @media (max-width: 768px) { 
 
+
+   .cartehebergement
+   {
+       box-shadow: white;
+   }
+
    #hebergements
    {
        grid-template-columns: unset;
+       background-color: white;
+       border: white;
    }
    .container
    {
@@ -534,6 +542,7 @@ footer
    {
        width: 100%;
        height: unset;
+       background-color: white;
    }
    #tout1
    {
@@ -544,7 +553,23 @@ footer
  {
      grid-template-columns: unset;
      position: unset;
+     margin: 0;
+     column-gap: none;
+     display: unset;
  }
+   .contourimagebis
+   {
+       position: unset;
+       height: 200px;
+   }
+
+   footer {
+
+    display: unset;
+
+
+   }
+
 
 }
 
