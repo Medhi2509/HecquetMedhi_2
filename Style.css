@@ -345,10 +345,11 @@ figcaption p
 
 #afficher
 {
-    font-family: bold;
+    font-weight: bold;
     font-size: 20px;
     margin-left: 20px;
     margin-top: 25px;
+    font-family: Raleway;
 }
 
 
@@ -424,7 +425,7 @@ figcaption p
 }
 /*Activités*/
 
-.activite
+#activite
  {
     display: grid;
     margin: 40px 0;
@@ -523,9 +524,31 @@ footer
 {
     display: none;
 }
-@media (max-width: 768px) { 
+@media screen and (max-width: 600px) {
+    *{
 
+    }
+    #search
+    {
+        align-items: center;
 
+    }
+
+    #paragraphe{
+        margin-top: 20px;
+    }
+
+    .filtre
+    {
+        margin-top: 10px;
+        display: table-row;
+    }
+
+    header
+    {
+        grid-template-areas: unset ;
+
+    }
    .cartehebergement
    {
        box-shadow: white;
@@ -552,7 +575,7 @@ footer
        width: 100%;
        margin-left: unset;
    }
-   .activite
+   #activite
  {
      grid-template-columns: unset;
      position: unset;
@@ -579,6 +602,10 @@ footer
    #bouttonloupe
    {
        display: initial;
+       width: 50px;
+       height: 50px;
+       border-radius: 15px;
+
        
    }
 }
