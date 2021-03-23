@@ -528,6 +528,22 @@ footer
     *{
 
     }
+
+    header
+    {
+        display: inline;
+    }
+   li #color
+    {
+        float: right;
+    }
+    li:hover
+    {
+        border-bottom:  solid 1px #0065FC;
+        padding-bottom: 25px;
+        color: #0065FC;
+        border-top: unset;
+    }
     #search
     {
         align-items: center;
@@ -544,11 +560,7 @@ footer
         display: table-row;
     }
 
-    header
-    {
-        grid-template-areas: unset ;
 
-    }
    .cartehebergement
    {
        box-shadow: white;
@@ -572,8 +584,13 @@ footer
    }
    #tout1
    {
+       margin-top: 15px;
        width: 100%;
        margin-left: unset;
+       height: 700px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+
    }
    #activite
  {
