@@ -17,10 +17,7 @@
 body {
     overflow-x: hidden;
 
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 h4 {
@@ -107,7 +104,7 @@ nav a:hover {
 }
 
 #tete {
-    margin: auto 0px 5px auto;
+    margin: auto 0 5px auto;
 }
 
 #texte {
@@ -177,7 +174,7 @@ button {
 
 .bouton {
     display: flex;
-    border: solid 2.5px #F2F2F2;
+    border: solid 3px #F2F2F2;
     border-radius: 20px;
     max-width: 300px;
     margin: 10px;
@@ -283,10 +280,9 @@ figure img {
 figcaption {
 
     background-color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
     margin-top: 5px;
     padding: 5px;
-    border: 1px;
+    border: 1px rgb(255, 255, 255);
     border-radius: 20px;
 }
 
@@ -464,7 +460,7 @@ footer {
     width: 100%;
     padding: 15px;
     display: flex;
-    margin: 0px;
+    margin: 0;
     position: absolute;
 
 }
