@@ -333,8 +333,7 @@ figcaption p {
 #tout1 {
     Border-radius: 30px;
     background-color: #F2F2F2;
-    width: 30%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #allcarte {
@@ -483,10 +482,60 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    * {
+/*Tablet*/
+
+@media screen and (max-width: 800px) {
+
+    .filtre {
+        display: unset;
+    }
+
+    #hebergements {
+        grid-template-columns: unset;
+        background-color: #F2F2F2;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titrehebergement {
+        width: 100%;
+        height: unset;
+        background-color: #F2F2F2;
+        border: none;
+    }
+
+    #tout1 {
+        margin-top: 15px;
+        width: 100%;
+        margin-left: unset;
+        height: 700px;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
     }
+
+    #activite {
+        grid-template-columns: unset;
+        position: unset;
+        margin: 0;
+        column-gap: initial;
+        display: unset;
+    }
+
+    .contourimagebis {
+        position: unset;
+        height: 200px;
+    }
+
+
+}
+
+/*Smartphone*/
+
+@media screen and (max-width: 600px) {
 
     header {
         display: inline;
@@ -531,7 +580,11 @@ footer {
 
     #search {
         align-items: center;
+        display: unset;
+    }
 
+    input {
+        width: 100%;
     }
 
     #bouttonrecherche {
@@ -556,6 +609,11 @@ footer {
         display: table-row;
     }
 
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .cartehebergement {
         box-shadow: white;
     }
@@ -567,25 +625,25 @@ footer {
 
     }
 
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     #titrehebergement {
         width: 100%;
         height: unset;
-        background-color: white;
+        background-color: #F2F2F2;
         border: none;
+    }
+
+    #afficher {
+        margin-bottom: 10px;
     }
 
     #tout1 {
         margin-top: 15px;
         width: 100%;
         margin-left: unset;
-        height: 700px;
+        height: 800px;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-bottom: 10px;
 
     }
 
@@ -607,12 +665,13 @@ footer {
         padding: 0;
     }
 
-    .Propos h3
-    {
+    .Propos h3 {
         padding-left: 15px;
     }
 
 }
+
+
 
 
 
