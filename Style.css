@@ -130,8 +130,6 @@ nav a:hover {
 
 #iconInput {
     display: flex;
-    background-color: var(--grey);
-    border: 2px solid var(--grey);
     border-right: none;
     border-radius: 10px 0 0 10px;
 }
@@ -142,12 +140,14 @@ nav a:hover {
     line-height: var(--icon-size);
     vertical-align: middle;
     text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
 }
 
 input {
     margin: 0;
-    border: none;
     text-indent: 5px;
+    border: 2px solid #F2F2F2;
 }
 
 button {
@@ -535,6 +535,10 @@ footer {
 
     header {
         display: inline;
+    }
+
+    input{
+        height: 34px;
     }
 
     li a:hover {
