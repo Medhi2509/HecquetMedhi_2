@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e10648e-a083-412d-b1fd-ab3a415b597e" name="Default Changelist" comment="Fin 0104">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Reservia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/fort.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/iles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/notre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/parclongchamps.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/parcnaturel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activités/vieuxport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Aubergelacannebiere.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Aubergelepanier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Aucoeurdel'eau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hotel de la mermini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/HotelAmina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hoteldelamer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hotelduport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hotellesmouette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hotellesoleildumatin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hébergements/Hoteltoutbleumini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logo/Reservia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reservia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1q8396WT0GlhsGV26SDpFa83Qia" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e10648e-a083-412d-b1fd-ab3a415b597e" name="Default Changelist" comment="" />
+      <created>1616447235646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616447235646</updated>
+      <workItem from="1616447237196" duration="325000" />
+      <workItem from="1616496263307" duration="2263000" />
+      <workItem from="1616586706184" duration="3640000" />
+      <workItem from="1616688700229" duration="4901000" />
+      <workItem from="1616700874708" duration="2000" />
+      <workItem from="1616947249723" duration="4367000" />
+      <workItem from="1616959714738" duration="26000" />
+      <workItem from="1617004821293" duration="643000" />
+      <workItem from="1617122955524" duration="750000" />
+      <workItem from="1617283660283" duration="142000" />
+      <workItem from="1617442978325" duration="918000" />
+    </task>
+    <task id="LOCAL-00001" summary="Header">
+      <created>1616498523925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616498523925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="avant-final">
+      <created>1616589788251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616589788251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fin">
+      <created>1616693458516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616693458516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tablette">
+      <created>1616949479322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616949479322</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tablettees">
+      <created>1616950127178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616950127178</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New modif">
+      <created>1616950999927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616950999927</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fin 0104">
+      <created>1617283733949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617283733949</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Photo">
+      <created>1617443006644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617443006644</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Header" />
+    <MESSAGE value="avant-final" />
+    <MESSAGE value="Fin" />
+    <MESSAGE value="Tablette" />
+    <MESSAGE value="Tablettees" />
+    <MESSAGE value="New modif" />
+    <MESSAGE value="Fin 0104" />
+    <MESSAGE value="Photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Photo" />
+  </component>
+</project>
